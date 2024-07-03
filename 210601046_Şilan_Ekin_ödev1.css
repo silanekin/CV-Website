@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: left;
+    background-color: gainsboro;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(146, 147, 149);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  
+
+}
+
+
+.arkaplan {
+    position: absolute;
+    background-image: url(bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+
+h1 {
+    padding: 1rem;
+    padding-bottom: 0;
+
+}
+
+
+.icerik>img.profilfoto {
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+    float: left;
+}
+
+
+
+.silan >.hakkimda {
+    float: right;
+    width: 50rem;
+    height: 25rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+p {
+    font-size: 2rem;
+    color: lightgray;
+}
+
+#logokutu .logo {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 2.5rem;
+    float: left;
+    margin-left: 2rem;
+   padding-top: 1rem;
+}
+
+#navlinks {
+    float: right;
+}
+
+#navlinks .navitem {
+    float: left;
+    margin: 1rem;
+    font-size: 4rem;
+
+}
+
+#navlinks .navlink {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+
+#navlinks .navlink:hover {
+    color: rgb(75, 80, 75);
+}
+
+h2 {
+    color: rgb(81, 79, 79);
+}
+
+.altKisim>.makale {
+    margin-top: 80px;
+    float: right;
+}
+
+.altKisim>.makale>.clean {
+    margin: 50px;
+    text-align: center;
+
+}
+altKisim>.iletisim{
+    text-align: center;
+    margin-top: 200px;
+}
+altKisim>.sertifika{
+  float: right;
+  
+}
+altKisim>.sosyalmedya {
+    float:left ;
+}
+
+@media (max-width:300) {
+ .profilfoto {
+   width: 100px;
+   height: 100px;
+}   
+}
+@media (min-width:920){
+    .icerik>img.profilfoto {
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+        float: left;
+    }
+}
